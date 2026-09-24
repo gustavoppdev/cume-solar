@@ -1,0 +1,231 @@
+{
+  "Metadata": {
+    "siteName": "Cume",
+    "title": "Cume, energia solar residencial",
+    "description": "Descubra quanto da sua conta de luz um sistema solar cobre e quanto continua chegando todo mês. Estimativa com as premissas à vista, sem promessa de economia.",
+    "ogImageAlt": "Cume, energia solar residencial"
+  },
+  "Nav": {
+    "label": "Navegação",
+    "skipToContent": "Ir para o conteúdo",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu",
+    "home": "Cume, início",
+    "links": {
+      "calculator": "Sua conta",
+      "system": "O sistema",
+      "installs": "Obras",
+      "process": "Processo",
+      "contact": "Orçamento"
+    }
+  },
+  "Footer": {
+    "label": "Rodapé",
+    "rights": "© {year} Cume. Todos os direitos reservados.",
+    "privacy": "Privacidade"
+  },
+  "Demo": {
+    "footerNotice": "Projeto de portfólio. Cume é uma marca fictícia e nenhum serviço é oferecido aqui.",
+    "conversionNotice": "Este é um portfólio: nada foi enviado e nenhum dado saiu do seu navegador."
+  },
+  "NotFound": {
+    "title": "Página não encontrada",
+    "description": "O endereço que você abriu não existe por aqui. Talvez o link esteja quebrado ou a página tenha mudado de lugar.",
+    "backHome": "Voltar ao início"
+  },
+  "Privacy": {
+    "title": "Política de Privacidade",
+    "updated": "Atualizada em {date}",
+    "sections": {
+      "what": {
+        "title": "O que é este site",
+        "body": "Cume é uma marca fictícia, criada para um projeto de portfólio. Não existe empresa, não existe serviço de instalação e nada do que está aqui é uma oferta."
+      },
+      "data": {
+        "title": "Dados",
+        "body": "Nenhum dado é coletado, armazenado ou enviado. O formulário de orçamento e a calculadora funcionam inteiramente no seu navegador, e o que você digita nunca sai dele."
+      },
+      "cookies": {
+        "title": "Cookies",
+        "body": "Este site não usa cookies, não tem analytics e não carrega rastreador de terceiros. Por isso também não existe banner de consentimento, já que não há nada a consentir."
+      },
+      "images": {
+        "title": "Imagens",
+        "body": "As fotografias foram geradas por inteligência artificial, e as casas que aparecem nelas não existem."
+      },
+      "numbers": {
+        "title": "Números",
+        "body": "As premissas da calculadora vêm de fontes públicas e estão datadas na própria página. Elas envelhecem: a regra do custo de disponibilidade estava em revisão na ANEEL quando este site foi escrito."
+      },
+      "contact": {
+        "title": "Contato",
+        "body": "Como não há empresa, não há canal de atendimento. Para falar sobre o projeto em si, procure o autor no perfil do portfólio."
+      }
+    }
+  },
+  "Conversion": {
+    "lead": {
+      "title": "Peça seu orçamento",
+      "fields": {
+        "name": {
+          "label": "Nome",
+          "placeholder": "Como o projetista deve te chamar"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "voce@exemplo.com"
+        },
+        "phone": {
+          "label": "Telefone",
+          "placeholder": "(11) 91234-5678"
+        },
+        "message": {
+          "label": "Sobre o projeto",
+          "placeholder": "Tamanho, cômodos, o que incomoda hoje…"
+        },
+        "choice": {
+          "label": "Estado",
+          "placeholder": "Selecione o estado",
+          "help": "A tarifa muda conforme a distribuidora, e a distribuidora depende de onde você mora. É o que falta para a estimativa virar orçamento."
+        }
+      },
+      "errors": {
+        "required": "Preencha este campo.",
+        "email": "Informe um e-mail válido.",
+        "phone": "Informe um telefone com DDD.",
+        "min": "Escreva pelo menos {min} caracteres.",
+        "choice": "Selecione o estado."
+      },
+      "consent": "Ao enviar, você concorda com a <link>Política de Privacidade</link>.",
+      "submit": "Pedir orçamento",
+      "submitting": "Enviando…",
+      "successTitle": "Pedido recebido",
+      "successBody": "Obrigado, {name}. Em um projeto real, um projetista ligaria em até um dia útil para marcar a visita.",
+      "reset": "Pedir outro orçamento"
+    }
+  },
+  "Hero": {
+    "title": "Cume",
+    "secondary": "Energia solar residencial",
+    "lead": "Sua conta de luz tem duas partes. Só uma delas o sol resolve.",
+    "imageAlt": "Telhado de telha cerâmica de uma casa contemporânea sob sol de meio-dia, com módulos fotovoltaicos assentados na água voltada para o norte."
+  },
+  "Calculator": {
+    "label": "Consumo. R$/mês",
+    "title": "Quanto da sua conta o sol cobre",
+    "lead": "Arraste até o valor que chega todo mês. A estimativa aparece com as premissas do lado, e você confere cada uma antes de acreditar no número.",
+    "sliderLabel": "Conta por mês",
+    "sliderDescription": "Valor da sua conta de luz por mês, em reais. Use as setas para ajustar.",
+    "assumption": {
+      "single": "Assumindo ligação monofásica, a mais comum em residências.",
+      "twoPhase": "Assumindo ligação bifásica, o padrão de casas com chuveiro elétrico e ar-condicionado.",
+      "threePhase": "Assumindo ligação trifásica, o padrão de casas com ar-condicionado central ou bomba de piscina."
+    },
+    "change": "Alterar",
+    "connectionLabel": "Tipo de ligação da sua casa",
+    "connectionHelp": "Está impressa na sua conta, perto do número do medidor. Monofásica tem dois fios na entrada, bifásica tem três e trifásica tem quatro.",
+    "connection": {
+      "single": "Monofásica",
+      "twoPhase": "Bifásica",
+      "threePhase": "Trifásica"
+    },
+    "generatedLabel": "Um sistema cobre",
+    "generatedHelp": "É a energia que você consome da rede e que os módulos passam a produzir no seu telhado.",
+    "fixedLabel": "Continua chegando",
+    "fixedHelp": "A distribuidora cobra um mínimo mensal para manter a rede à sua disposição, mesmo que você não consuma nada dela. Ele não some depois da instalação.",
+    "systemLabel": "Para cobrir essa parte",
+    "units": {
+      "modules": "módulos",
+      "area": "m² de telhado",
+      "power": "kWp"
+    },
+    "premisesTitle": "De onde saem esses números",
+    "premiseTariff": "Usamos a tarifa residencial média do país, {tariff} por kWh já com impostos. A sua está impressa na conta e varia bastante entre distribuidoras, que é o motivo de o orçamento perguntar o seu estado.",
+    "premiseMinimum": "O mínimo cobrado pela distribuidora é fixado em kWh e depende do tipo de ligação: 30 kWh na monofásica, 50 kWh na bifásica a três condutores e 100 kWh na trifásica. O valor em reais sai desse número multiplicado pela tarifa.",
+    "premiseOthers": "Duas cobranças ficam de fora da conta acima porque variam demais para entrar numa estimativa nacional, e as duas continuam chegando depois da instalação. A iluminação pública é fixada por cada município. E desde a Lei 14.300, de 2022, parte da tarifa de uso da rede passou a ser cobrada também sobre a energia que você injeta e compensa depois: em 2026 essa parcela está em 60%, e ela cresce até 2029.",
+    "estimateNotice": "Isto é uma estimativa, não uma proposta. O número do seu telhado sai da visita técnica, que mede orientação, inclinação, sombreamento e o estado do padrão de entrada.",
+    "premisesDate": "Premissas de setembro de 2026.",
+    "premiseYield": "O número de módulos supõe que cada kWp instalado gera cerca de {yield} kWh por mês, a média de um telhado bem orientado no Brasil. No Sul o mesmo sistema rende menos, e no Nordeste rende mais.",
+    "investmentLabel": "Um sistema assim custa hoje",
+    "investmentHelp": "Preço de mercado, instalado, com equipamento, projeto e homologação. Serve para você saber se um orçamento está dentro do mercado ou fora dele.",
+    "investmentRange": "<low></low> a <high></high>",
+    "premiseInvestment": "A faixa de preço vai de {low} a {high} por Wp instalado. Ela cobre os levantamentos da consultoria Greener e os preços que instaladores praticam em 2026. Sistemas pequenos ficam perto do topo da faixa, porque projeto, estrutura e homologação custam quase o mesmo em qualquer tamanho.",
+    "fixedFrom": "a partir de",
+    "fixedExtra": "Somam-se a ele a iluminação pública e a parcela do Fio B, que dependem da sua cidade e da distribuidora."
+  },
+  "System": {
+    "label": "Sistema. <unit>kWp</unit>",
+    "title": "O que sobe no telhado",
+    "lead": "Um sistema residencial tem poucas peças e todas ficam à vista. Vale saber o que cada uma faz antes de comparar orçamentos, porque a diferença de preço entre propostas costuma estar aqui.",
+    "notes": {
+      "modules": "Módulos fotovoltaicos: convertem a luz em corrente contínua.",
+      "mounting": "Estrutura de fixação: prende os módulos à trama do telhado sem furar a telha.",
+      "inverter": "Inversor: converte a corrente contínua em alternada e entrega ao quadro da casa.",
+      "meter": "Medidor bidirecional: registra o que você consome e o que injeta na rede. A distribuidora troca o seu na homologação."
+    },
+    "roofAlt": "Detalhe de módulos fotovoltaicos assentados sobre telha cerâmica, com os trilhos de alumínio da estrutura de fixação visíveis entre as fileiras.",
+    "inverterAlt": "Inversor instalado em parede de reboco branco sob o beiral, com o conduíte descendo reto até o quadro.",
+    "tableHeadItem": "Item",
+    "tableHeadSpec": "Especificação",
+    "spec": {
+      "modules": "Módulos",
+      "inverter": "Inversor",
+      "mounting": "Estrutura",
+      "moduleWarranty": "Garantia dos módulos",
+      "inverterWarranty": "Garantia do inversor",
+      "service": "Serviço"
+    },
+    "note": "Os valores mudam conforme o projeto; a lista não. Qualquer proposta que você receber deve trazer essas seis linhas preenchidas."
+  },
+  "Installs": {
+    "label": "Obras. 2024–2026",
+    "title": "Sistemas que já estão gerando",
+    "lead": "As entregas mais recentes, uma por estado, todas homologadas. A potência está em kWp, que é a soma da potência dos módulos.",
+    "headCity": "Cidade",
+    "headPower": "Potência",
+    "headDate": "Entrega",
+    "note": "Não publicamos nome de cliente nem foto de fachada. Quem quiser conversar com alguém que já instalou, a gente pergunta antes e passa o contato."
+  },
+  "Process": {
+    "label": "Processo. Dias úteis",
+    "title": "Da visita à homologação",
+    "lead": "O prazo total depende da distribuidora, e a etapa mais longa é justamente a que não está na nossa mão. Os dias abaixo são úteis e contam a partir do seu pedido.",
+    "headStep": "Etapa",
+    "headDays": "Prazo",
+    "days": "{days} dias",
+    "steps": {
+      "visit": {
+        "name": "Visita técnica",
+        "detail": "Um projetista mede o telhado, confere o padrão de entrada e fotografa o quadro."
+      },
+      "design": {
+        "name": "Projeto e orçamento",
+        "detail": "Dimensionamento, memorial e a lista de equipamento com marca e modelo."
+      },
+      "request": {
+        "name": "Solicitação de acesso",
+        "detail": "O projeto entra na distribuidora, que tem prazo regulado para responder."
+      },
+      "install": {
+        "name": "Instalação",
+        "detail": "Estrutura, módulos, inversor e string box, com a casa desligada por algumas horas."
+      },
+      "approval": {
+        "name": "Vistoria e homologação",
+        "detail": "A distribuidora vistoria, troca o medidor e libera a geração."
+      }
+    },
+    "note": "A solicitação de acesso costuma ser a etapa mais demorada, e quem promete homologação em duas semanas está prometendo um prazo que não controla.",
+    "legendUs": "Com a Cume",
+    "legendUtility": "Com a distribuidora",
+    "total": "Total"
+  },
+  "Contact": {
+    "label": "Orçamento.",
+    "title": "Peça seu orçamento",
+    "lead": "O orçamento sai depois da visita técnica, e a visita não custa nada. Preencha abaixo e um projetista liga para combinar o horário.",
+    "summaryTitle": "Sua estimativa",
+    "summaryNote": "Estes números vêm da calculadora acima e seguem com o seu pedido. Se quiser mudar, <link>volte à calculadora</link> e arraste de novo.",
+    "imageAlt": "A mesma casa à noitinha, com as luzes acesas atrás do vidro e os módulos escuros sobre a telha, já sem gerar."
+  }
+}
