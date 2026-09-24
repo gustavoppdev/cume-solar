@@ -87,14 +87,14 @@ export default async function OpengraphImage({ params }: { params: Promise<{ loc
           style={{
             position: "relative",
             display: "flex",
-            fontSize: 72,
+            fontSize: 64,
             fontWeight: 700,
-            lineHeight: 1.05,
+            lineHeight: 1.08,
             letterSpacing: -2,
-            maxWidth: 960,
+            maxWidth: 900,
           }}
         >
-          {hero("title")}
+          {hero("lead")}
         </div>
         <div
           style={{
@@ -102,7 +102,6 @@ export default async function OpengraphImage({ params }: { params: Promise<{ loc
             display: "flex",
             height: 12,
             width: 160,
-            borderRadius: 6,
             background: photo ? tokenHex("primary-foreground") : tokenHex("primary"),
           }}
         />
